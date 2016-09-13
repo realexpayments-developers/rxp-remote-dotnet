@@ -1,0 +1,7 @@
+C:\Projects\C#\rxp-remote-dotnet\rxp-remote-dotnet\obj\Debug\rxp-remote-dotnet.csprojResolveAssemblyReference.cache
+C:\Projects\C#\rxp-remote-dotnet\rxp-remote-dotnet\bin\Debug\rxp-remote-dotnet.dll
+C:\Projects\C#\rxp-remote-dotnet\rxp-remote-dotnet\bin\Debug\rxp-remote-dotnet.pdb
+C:\Projects\C#\rxp-remote-dotnet\rxp-remote-dotnet\bin\Debug\NLog.dll
+C:\Projects\C#\rxp-remote-dotnet\rxp-remote-dotnet\bin\Debug\NLog.xml
+C:\Projects\C#\rxp-remote-dotnet\rxp-remote-dotnet\obj\Debug\rxp-remote-dotnet.dll
+C:\Projects\C#\rxp-remote-dotnet\rxp-remote-dotnet\obj\Debug\rxp-remote-dotnet.pdb

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rxp-remote-dotnet", "rxp-remote-dotnet\rxp-remote-dotnet.csproj", "{77C4F5E1-7BFF-4B9B-9D37-BCF16D8EB7E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rxp-remote-dotnet-test", "rxp-remote-dotnet-test\rxp-remote-dotnet-test.csproj", "{AB20C2FE-DE31-49E0-ADDA-054D414FA9F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77C4F5E1-7BFF-4B9B-9D37-BCF16D8EB7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C4F5E1-7BFF-4B9B-9D37-BCF16D8EB7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C4F5E1-7BFF-4B9B-9D37-BCF16D8EB7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C4F5E1-7BFF-4B9B-9D37-BCF16D8EB7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB20C2FE-DE31-49E0-ADDA-054D414FA9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB20C2FE-DE31-49E0-ADDA-054D414FA9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB20C2FE-DE31-49E0-ADDA-054D414FA9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB20C2FE-DE31-49E0-ADDA-054D414FA9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
