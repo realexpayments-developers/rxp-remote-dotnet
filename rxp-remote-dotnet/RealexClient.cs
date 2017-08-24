@@ -29,6 +29,9 @@ namespace RealexPayments.Remote.SDK {
             LOGGER.Debug("Marshalling request object to XML.");
             string xmlRequest = request.ToXml();
 
+            //TLS 1.1 and below are no longer supported so specify TLS 1.2 as the default
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
+            
             //send request to Realex.
             string xmlResult = HttpUtils.SendMessage(xmlRequest, HttpClient, HttpConfiguration);
 
