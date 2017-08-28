@@ -64,6 +64,7 @@ namespace RealexPayments.Remote.SDK.Http {
                 httpPost.Content = new StringContent(xml, Encoding.UTF8, "application/xml");
 
                 logger.Debug("Executing HTTP Post message to: " + httpPost.RequestUri);
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
                 response = httpClient.SendAsync(httpPost).Result;
 
                 logger.Debug("Checking the HTTP response status code.");

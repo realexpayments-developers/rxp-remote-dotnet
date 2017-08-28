@@ -30,7 +30,7 @@ namespace RealexPayments.Remote.SDK.Domain.Payment {
         [XmlElement(ElementName = "acquirerresponse")]
         public string AcquirerResponse { get; set; }
         [XmlElement(ElementName = "batchid")]
-        public long BatchId { get; set; }
+        public string BatchId { get; set; }
         [XmlElement(ElementName = "cardissuer")]
         public CardIssuer CardIssuer { get; set; }
         [XmlElement(ElementName = "sha1hash")]
@@ -41,6 +41,8 @@ namespace RealexPayments.Remote.SDK.Domain.Payment {
         public string AvsPostcodeResponse { get; set; }
         [XmlElement(ElementName = "avsaddressresponse")]
         public string AvsAddressResponse { get; set; }
+        [XmlElement(ElementName = "processingtimetaken")]
+        public string ProcessingTimeTaken { get; set; }
 
         public PaymentResponse FromXml(string xml) {
             return XmlUtils.FromXml<PaymentResponse>(xml);

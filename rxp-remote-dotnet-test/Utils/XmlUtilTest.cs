@@ -246,7 +246,7 @@ namespace RealexPayments.Remote.SDK.Utils {
             response.AcquirerResponse = sx.ACQUIRER_RESPONSE;
             response.AuthCode = sx.AUTH_CODE;
             response.AuthTimeTaken = sx.AUTH_TIME_TAKEN;
-            response.BatchId = sx.BATCH_ID;
+            response.BatchId = sx.BATCH_ID.ToString();
 
             CardIssuer cardIssuer = new CardIssuer();
             cardIssuer.Bank = sx.BANK;
