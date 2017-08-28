@@ -14,16 +14,27 @@ namespace RealexPayments.Remote.SDK.Domain {
     public class Card {
         private const string SHORT_MASK = "******";
 
+        [XmlElement(ElementName = "ref")]
+        public string Ref { get; set; }
+
+        [XmlElement(ElementName = "payerref")]
+        public string PayerRef { get; set; }
+
         [XmlElement(ElementName = "number")]
         public string Number { get; set; }
+
         [XmlElement(ElementName = "expdate")]
         public string ExpiryDate { get; set; }
+
         [XmlElement(ElementName = "chname")]
         public string CardHolderName { get; set; }
+
         [XmlElement(ElementName = "type")]
         public string Type { get; set; }
+
         [XmlElement(ElementName = "issueno")]
         public int IssueNumber { get; set; }
+
         [XmlElement(ElementName = "cvn", Type = typeof(Cvn))]
         public Cvn Cvn { get; set; }
 
@@ -32,6 +43,9 @@ namespace RealexPayments.Remote.SDK.Domain {
         public Card AddCardHolderName(string value) { this.CardHolderName = value; return this; }
         public Card AddType(string value) { this.Type = value; return this; }
         public Card AddIssueNumber(int value) { this.IssueNumber = value; return this; }
+        public Card AddRef(string value) { this.Ref = value; return this; }
+        public Card AddPayerRef(string value) { this.PayerRef = value; return this; }
+
         public Card AddCvn(string value) {
             if (this.Cvn == null)
                 this.Cvn = new Cvn().AddNumber(value);

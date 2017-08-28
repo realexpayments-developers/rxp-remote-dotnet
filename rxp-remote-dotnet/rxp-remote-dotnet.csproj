@@ -53,7 +53,10 @@
     <Compile Include="Domain\Payment\AutoSettle.cs" />
     <Compile Include="Domain\Payment\CardIssuer.cs" />
     <Compile Include="Domain\Payment\Comment.cs" />
+    <Compile Include="Domain\Payment\Country.cs" />
     <Compile Include="Domain\Payment\Mpi.cs" />
+    <Compile Include="Domain\Payment\Payer.cs" />
+    <Compile Include="Domain\Payment\PayerAddress.cs" />
     <Compile Include="Domain\Payment\PaymentRequest.cs" />
     <Compile Include="Domain\Payment\PaymentResponse.cs" />
     <Compile Include="Domain\Payment\Recurring.cs" />
